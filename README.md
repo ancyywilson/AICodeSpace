@@ -51,62 +51,6 @@ npm run dev
 
 6. Open your browser and navigate to `http://localhost:3000`
 
-### AI Features
-
-#### Code Assistance
-- Type `/help` followed by your question to get AI assistance
-- Example: `/help how do I sort an array of objects?`
-
-#### Code Generation
-- Use `/generate` to create code from natural language
-- Example: `/generate create a function that fetches data from an API`
-
-#### Debug Help
-- Select problematic code and click "Ask AI" for debugging suggestions
-- The AI will analyze your code and provide fixes
-
-#### Code Review
-- Click "Review Code" to get optimization suggestions and best practices
-
-## Project Structure
-
-```
-ai-code-playground/
-├── public/
-│   ├── index.html
-│   └── styles/
-│       └── main.css
-├── src/
-│   ├── components/
-│   │   ├── Editor.js
-│   │   ├── Console.js
-│   │   └── AIAssistant.js
-│   ├── services/
-│   │   ├── codeExecutor.js
-│   │   └── aiService.js
-│   ├── utils/
-│   │   ├── parser.js
-│   │   └── formatter.js
-│   └── app.js
-├── package.json
-├── .env.example
-└── README.md
-```
-
-## Configuration
-
-### Editor Settings
-
-Customize the code editor in `src/config/editorConfig.js`:
-
-```javascript
-{
-  theme: 'vs-dark',
-  fontSize: 14,
-  tabSize: 2,
-  wordWrap: 'on',
-  minimap: { enabled: true }
-}
 ```
 
 ### AI Settings
@@ -178,25 +122,6 @@ We welcome contributions! Please follow these steps:
 5. Open a Pull Request
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and development process.
-
-## Troubleshooting
-
-### Common Issues
-
-**Code won't execute**
-- Check browser console for errors
-- Ensure the code has no syntax errors
-- Try refreshing the page
-
-**AI features not working**
-- Verify your API key is correctly set in `.env`
-- Check your internet connection
-- Ensure you haven't exceeded API rate limits
-
-**Editor not loading**
-- Clear browser cache
-- Try a different browser
-- Check if JavaScript is enabled
 
 ## Roadmap
 
