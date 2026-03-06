@@ -123,15 +123,5 @@ We welcome contributions! Please follow these steps:
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and development process.
 
-## Roadmap
-
-- [ ] Support for multiple programming languages (Python, TypeScript, etc.)
-- [ ] Collaborative editing with real-time sync
-- [ ] Code versioning and history
-- [ ] Custom AI model training on user's coding style
-- [ ] Mobile app version
-- [ ] Browser extension
-- [ ] Integration with GitHub Gists
-
 
 Made with ❤️ by developers, for developers
